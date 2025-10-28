@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+.yarn/cache
+.yarn/install-state.gz
+
+# Build artifacts
+*.r1cs
+*_js/
+*.sym
+
+# Git
+.git/
+.gitignore
+
+# Results
+benchmark-results.csv
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.md
+!README.md

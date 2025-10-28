@@ -1,0 +1,7 @@
+{
+  "name": "zkenc-benchmark",
+  "packageManager": "yarn@4.9.2",
+  "dependencies": {
+    "zkenc-js": "^0.2.0"
+  }
+}

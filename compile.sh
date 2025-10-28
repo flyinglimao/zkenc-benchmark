@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 echo -e "${BLUE}開始編譯電路...${NC}"
 
 # 電路列表
-CIRCUITS=("sudoku" "merkle_membership" "signature")
+CIRCUITS=("sudoku" "merkle_membership" "signature" "keccak_256")
 
 for circuit in "${CIRCUITS[@]}"; do
     echo -e "\n${GREEN}編譯 ${circuit}...${NC}"

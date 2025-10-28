@@ -10,6 +10,7 @@ const CIRCUITS = [
   { name: "sudoku", path: "sudoku" },
   { name: "merkle_membership", path: "merkle_membership" },
   { name: "signature", path: "signature" },
+  { name: "keccak_256", path: "keccak_256" },
 ];
 
 /**

@@ -5,10 +5,18 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"circomlib@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "circomlib@npm:2.0.5"
+  checksum: 10c0/6709e3df9e16c09015e69f9ee01d5fde340b888743a204be27e37880337db61f013f4a6b9573935fb410ddb02a0e89367edf509b89182a0c2e07c8a4777c91a4
+  languageName: node
+  linkType: hard
+
 "zkenc-benchmark@workspace:.":
   version: 0.0.0-use.local
   resolution: "zkenc-benchmark@workspace:."
   dependencies:
+    circomlib: "npm:^2.0.5"
     zkenc-js: "npm:^0.2.0"
   languageName: unknown
   linkType: soft

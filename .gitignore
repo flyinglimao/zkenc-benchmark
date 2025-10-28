@@ -15,3 +15,6 @@ node_modules
 
 #!.yarn/cache
 .pnp.*
+
+generate_witness.js
+witness_calculator.js

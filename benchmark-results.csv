@@ -1,0 +1,5 @@
+Circuit Name,Constraints,Public Inputs,Private Inputs,Encrypt Time (ms),Decrypt Time (ms),Ciphertext Size (bytes)
+sudoku,162,81,81,21,12,123550
+signature,8443,4,6,28,133,5080
+merkle_membership,9307,2,85,25,124,6427
+keccak_256,150848,256,256,968,657,404068

@@ -8,9 +8,10 @@ import { execSync } from "child_process";
 // 電路列表 - 在此處添加需要測試的電路
 const CIRCUITS = [
   { name: "sudoku", path: "sudoku" },
-  { name: "merkle_membership", path: "merkle_membership" },
   { name: "signature", path: "signature" },
+  { name: "merkle_membership", path: "merkle_membership" },
   { name: "keccak_256", path: "keccak_256" },
+  { name: "groth16_verifier", path: "groth16_verifier" },
 ];
 
 /**

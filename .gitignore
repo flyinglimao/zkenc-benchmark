@@ -16,6 +16,22 @@ node_modules
 #!.yarn/cache
 .pnp.*
 
+# Circom compilation artifacts
+*.r1cs
+*.sym
+*_js/
+*.wtns
+
+# Benchmark results
+benchmark-results.csv
+
+# Temporary circom-pairing clone (circuits are copied to groth16_verifier/lib/)
+temp_circom_pairing/
+
+# Groth16 verifier build artifacts
+groth16_verifier/build/
+
+# Generated witness files
 generate_witness.js
 witness_calculator.js
 benchmark-results.csv

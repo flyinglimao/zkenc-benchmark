@@ -109,7 +109,6 @@ template Fp12Add(n, k, p) {
             for (var m = 0; m < k; m ++) {
                 adders[i][j].a[m] <== a[i][j][m];
                 adders[i][j].b[m] <== b[i][j][m];
-                adders[i][j].p[m] <== p[m];
             }
             for (var m = 0; m < k; m ++) {
                 out[i][j][m] <== adders[i][j].out[m];

@@ -19,3 +19,5 @@ node_modules
 generate_witness.js
 witness_calculator.js
 benchmark-results.csv
+
+*.sym
